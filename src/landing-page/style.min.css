@@ -1,0 +1,292 @@
+#page-container{
+    position: relative;
+  }
+   
+  #content-wrap{
+    padding-bottom: 2.5rem;
+  } 
+  
+  .bs-icon{
+      --bs-icon-size:.75rem;
+      display:flex;
+      flex-shrink:0;
+      justify-content:center;
+      align-items:center;
+      font-size:var(--bs-icon-size);
+      width:calc(var(--bs-icon-size) * 2);
+      height:calc(var(--bs-icon-size) * 2);
+      color:var(--bs-primary)
+      }
+  
+  .bs-icon-xs{
+      --bs-icon-size:1rem;
+      width:calc(var(--bs-icon-size) * 1.5);
+      height:calc(var(--bs-icon-size) * 1.5)
+      }
+      
+  .bs-icon-sm{
+      --bs-icon-size:1rem
+      }
+  
+  .bs-icon-md{
+      --bs-icon-size:1.5rem
+      }
+  
+  .bs-icon-lg{
+      --bs-icon-size:2rem
+      }
+  
+  .bs-icon-xl{
+      --bs-icon-size:2.5rem
+      }
+  
+  .bs-icon.bs-icon-primary{
+      color:var(--bs-white);
+      background:var(--bs-primary)
+      }
+  
+  .bs-icon.bs-icon-primary-light{
+      color:var(--bs-primary);
+      background:rgba(var(--bs-primary-rgb),.2)
+      }
+  
+  .bs-icon.bs-icon-semi-white{
+      color:var(--bs-primary);
+      background:rgba(255,255,255,.5)
+      }
+  
+  .bs-icon.bs-icon-rounded{
+      border-radius:.5rem
+      }
+  
+  .bs-icon.bs-icon-circle{
+      border-radius:50%
+      }
+  
+  img{
+      height:80px;
+      width:250px
+      }
+  
+  #navcol-2{
+      background:#283971;
+      height:60px;
+      transform:skewX(-18deg);
+      padding-right:150px
+      }    
+  
+  .navbar{
+      height:60px
+      }
+  
+  #navcol-2::after{
+      content:'';
+      position:absolute;
+      transform:skewX(-18deg)
+  
+      }
+  
+  #about,#admissions,#news,#academics,#office,#contact,input{
+      color:#ffff;
+      transform:skew(18deg);
+      font-size:15px;
+      font-family: "Merriweather";
+      }
+  
+    #home,#campus,#map,#vision,#hymn,#mission,
+    #structure, #board, #admin{
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins";
+    border: 0px; 
+    border-bottom: 1px solid #D9D9D9;
+    }
+  
+  #title{
+    color:black;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .section-item:hover{
+    background-color: #9D9158;
+  }
+   
+  .section {
+      /*opacity: 0.6;*/
+      position: absolute;
+      width: 319px;
+      height: 200px;
+      left: 200px;
+      top: 400px;
+      border: 1px solid white;
+      background-color: #ffffff;
+      font-size: 16px;
+      line-height: 20px;
+      filter: alpha(opacity=60); 
+   } 
+  
+   .line{
+      border-bottom: 1px solid #D9D9D9;
+   }
+  
+   .this:hover{ 
+    background: #283271;
+   }
+  
+   /*a.active{}*/
+  
+   .text{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    right: 100px;
+    font-family: "Merriweather";
+    line-height: 40px;
+    text-align: justify;
+    padding-bottom: 200px;
+   }
+  
+   .text-title{
+    font-family: Montserrat; 
+    font-size: 25px; 
+    font-weight: 700;
+    color: #9D9158;
+   }
+  
+   .text-bold{
+    font-family: "Merriweather";
+    line-height: 40px;
+    text-align: justify; 
+    font-weight: bold;
+   }
+  
+   .subtitle{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: justify;
+   }
+  
+  .bg-footer{
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    height: 10px;
+    width: 100%;
+    background-color: #9D9158;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* padding-top: 50px;*/
+    padding-bottom: 50px; 
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    height: 50px;
+    background-color: #283271;
+    color: white;
+    text-align: left;
+    /*margin-top: -151px; */
+    padding-top: 50px; 
+    padding-bottom: 100px;
+    
+  } 
+  .footer img{
+    margin-top: 0px;
+    margin-left: 5px;
+   
+    width: 150px;
+    height: 50px; 
+    padding-left: 10px; 
+    padding-top: 0px;
+  }
+
+  /*.section-pictures{
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+	  border: 1px solid #ccc;
+	  float: left;
+	  width: 32%;
+}
+
+.pictures-style{
+    width: 50px;
+    height: 50px;
+
+}
+
+  .pictures-description{
+	  font-size: 20; 
+    font-weight: bold;
+	  padding: 15px;
+	  text-align: center;
+} */
+
+
+  .picture-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 250x;
+    position: relative;
+  }
+ 
+  
+  .picture{
+      margin: 0px;
+      border: 1px solid white;
+      float: center;
+      width: 5%;
+      position: absolute;
+  }
+  
+  .picture img{
+    width: 10px;
+    height: 10px;
+  }
+  
+  .picture2{
+      margin: 0px;
+      border: 1px solid white;
+      float: center;
+      width: 25%;
+      position: relative;
+      left: 250px;
+  }
+  
+  .picture2 img{
+    width: 10px;
+    height: 10px;
+  }
+  
+  .picture3{
+    margin: 0px;
+      border: 1px solid white;
+      float: center;
+      width:  5%;
+    position: relative; 
+  }
+  
+  .picture3 img{
+    width: 10px;
+    height: 10px;
+  }
+  
+  .desc{
+      font-size: 14px;
+      font-family: Merriweather;
+      font-weight: bold;
+      line-height: 5px;
+      margin-top: 30px;
+      padding: 0px;
+      text-align: left; 
+  }

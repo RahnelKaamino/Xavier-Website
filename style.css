@@ -1,0 +1,132 @@
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/poppins');
+                
+
+.logo a{
+    width: 70% !important;
+}
+
+/* fonts */
+.text-font{
+    font-family: "Montserrat";
+    padding-left: 1ch;
+    font-style: normal;
+    font-size: 23px;
+    color: #000000;
+}
+
+.text-font1{
+    font-family: "Merriweather" !important;
+}
+
+.text-font2{
+    font-family: "Montserrat" !important;
+    font-weight: bold; 
+    color: #9D9158;
+}
+
+.text-font3{
+    font-family: "Merriweather" !important;
+    font-weight: normal;
+    font-size: 17px;
+    color: #000033;
+    text-align: justify;
+}
+
+.text-font4{
+    text-decoration: none !important;
+    font-family: "Montserrat" !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.text-font5{
+    font-family: "Montserrat" !important;
+    font-weight: normal;
+    color: #9D9158;
+}
+
+.text-font6{
+    text-decoration: none !important;
+    font-family: "Poppins" !important;
+    font-weight: normal;
+    color: #2B5FB6;
+}
+
+.text-font7{
+    text-decoration: none !important;
+    font-family: "Poppins" !important;
+    font-weight: normal;
+    color: #646161 !important;
+}
+
+.text-font8{
+    text-decoration: none !important;
+    font-family: "Kontserrat" !important;
+    font-style: italic, bold;
+    color: #000033 !important;
+}
+
+
+.dec{
+    text-decoration: none;
+}
+
+/* colors */
+.color1{
+    background-color: #283271 !important;
+}
+
+.color2{
+    background-color: #9D9158 !important;
+}
+
+.text-color1{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.text_position{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 250x;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 250x;
+    position: fixed;
+}
+
+.card-section{
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 32%;
+}
+
+.card-details{
+	font-size: 20; 
+    font-weight: bold;
+	padding: 15px;
+	text-align: center;
+}
+
+.card-text{
+    font-size: 16;
+    padding: 15px;
+    text-align: justify;
+}
+ 
+ 
+/* responsive */
+@media (max-width: 992px){
+}

@@ -1,0 +1,174 @@
+#logo{
+    height:80px;
+    width:250px
+}
+
+a:hover {
+    background: #d9d9d9;
+                height: 40px;
+                color:white;
+            }
+#navcol-2{
+    background:#283971;
+    height:60px;
+    transform:skewX(-18deg);
+    padding-right:150px
+}
+.navbar{
+    height:60px
+}
+
+#pic {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+#about,#admissions,
+#news,#contact,#offices,#acads,input{
+    color:#ffff;
+    transform:skew(18deg);
+    font-size:14px;
+    font-family: Merriweather;
+}
+#home,#campus,#map,#vision,#hymn,#mission{
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins";
+    border: 0px; 
+    border-bottom: 1px solid #D9D9D9;
+    
+    }
+  
+  #title{
+    color:black;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .section-item:hover{
+    background-color: #9D9158;
+  }
+   
+  
+  .section {
+      /*opacity: 0.6;*/
+      position: absolute;
+      width: 319px;
+      height: 200px;
+      left: 200px;
+      top: 450px;
+      border: 1px solid white;
+      background-color: #ffffff;
+      font-size: 16px;
+      line-height: 20px;
+      filter: alpha(opacity=60); 
+   } 
+  
+   .text{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    right: 100px;
+    font-family: "Merriweather";
+    line-height: 40px;
+    text-align: justify;
+   }
+  
+   .text-title{
+    font-family: Montserrat; 
+    font-size: 25px; 
+    font-weight: 700;
+    color: #9D9158;
+    margin-top: 50px;
+   }
+   p{
+    font-family: "Merriweather";
+   }
+   .text-body{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    right: 100px;
+    font-family: "Merriweather";
+    line-height: 40px;
+    text-align: justify;
+   }
+   
+   .text-font1{
+    font-family: "Merriweather" !important;
+}
+
+.text-font2{
+    font-family: "Montserrat" !important;
+    font-weight: bold;
+    color: #9D9158;
+}
+
+.text-font3{
+    font-family: "Merriweather" !important;
+    font-weight: normal;
+    font-size: 17px;
+    color: #000033;
+}
+
+.text-font4{
+    text-decoration: none !important;
+    font-family: "Montserrat" !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.text-font5{
+    font-family: "Montserrat" !important;
+    font-weight: normal;
+    color: #9D9158;
+}
+
+.text-font6{
+    text-decoration: none !important;
+    font-family: "Poppins" !important;
+    font-weight: normal;
+    color: #2B5FB6;
+}
+
+.text-font7{
+    text-decoration: none !important;
+    font-family: "Poppins" !important;
+    font-weight: normal;
+    color: #646161 !important;
+}
+
+.text-font8{
+    text-decoration: none !important;
+    font-family: "Kontserrat" !important;
+    font-style: italic, bold;
+    color: #000033 !important;
+}
+
+
+.dec{
+    text-decoration: none;
+}
+
+/* colors */
+.color1{
+    background-color: #283271 !important;
+}
+
+.color2{
+    background-color: #9D9158 !important;
+}
+
+.text-color1{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+
+/* responsive */
+@media (max-width: 992px){
+
+}
